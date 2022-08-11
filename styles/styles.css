@@ -66,16 +66,39 @@ body {
 
 .carousel {
   display: flex;
-  border: 1px solid pink;
+
   height: 160.76px;
   align-items: center;
   overflow: scroll;
 }
 
 .card {
-  min-width: 38%;
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
   height: 150.76px;
   background-color: pink;
   border-radius: 5px;
   margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  width: 100%;
+  height: 28.82px;
+  position: absolute;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: #00574d;
+  bottom: 0%;
 }
