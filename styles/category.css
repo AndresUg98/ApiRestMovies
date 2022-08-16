@@ -4,34 +4,23 @@ body {
   background-color: #1c0f6b;
 }
 
-.searchBar-container img {
+.title-container img {
   left: 0;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.searchBar-container {
-  width: 90%;
+.title-container {
+  width: 80%;
   margin: 0 auto;
 }
 
-.searchbar {
-  width: 100%;
-}
-.searchbar input {
-  width: 100%;
-  height: 39px;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 0;
-  border-radius: 18px;
-  opacity: 0.8;
-}
-
-.searchbar input::placeholder {
-  font-family: "Exo 2", sans-serif;
-  font-size: 1.1rem;
+.title-container h1 {
+  font-family: "Concert One", cursive;
+  font-size: 2.5rem;
   font-weight: 400;
+  color: white;
+  margin: 0%;
 }
 
 .movies-result {
