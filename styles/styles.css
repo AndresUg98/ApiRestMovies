@@ -102,3 +102,32 @@ body {
   background-color: #00574d;
   bottom: 0%;
 }
+
+.categories-container {
+  width: 92%;
+  margin: 2rem auto;
+  box-sizing: border-box;
+}
+.categories-container h2 {
+  font-family: "Concert One", cursive;
+  font-size: 1.25rem;
+  color: white;
+  font-size: 400;
+}
+
+.categories {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.categories p {
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.5rem;
+}
