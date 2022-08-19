@@ -119,9 +119,8 @@ body {
   width: 100%;
   box-sizing: border-box;
   overflow: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .categories p {
